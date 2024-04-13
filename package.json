@@ -1,7 +1,8 @@
 {
-  "name": "basic-project-setup",
+  "name": "fast-db-insights",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
@@ -26,5 +27,9 @@
   },
   "publishConfig": {
     "access": "restricted"
+  },
+  "volta": {
+    "node": "20.12.2",
+    "npm": "10.5.2"
   }
 }
